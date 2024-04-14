@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.caja-principal-pantalla1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.fondo-pantalla1 {
+  width: 100%;
+  height: 100%;
+}
+
+.link-pantalla2 {
+  text-decoration: none;
+  align-items: center;
+}
+
+.caja-btn-pantalla1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 30%;
+}
+
+.btn-pantalla1 {
+  width: 16%;
+  height: 30%;
+  border-radius: 70%;
+  cursor: pointer;
+  border: 0px solid beige;
+  font-size: xx-large;
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+  font-style: italic;
+  font-weight: 900;
+}
+
+.btn-pantalla1:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1%;
+  height: 1%;
+  transform: scale3d(4);
+  transition: 5s;
+  animation-duration: 3s;
+  background: radial-gradient(#fff, rgba(0, 128, 0, 0.634), rgba(255, 166, 0, 0.576));
+}
+
+.caja-logo {
+  width: 100%;
+  height: 100%;
+}
+.caja-logo .img-logo {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.caja-logo .caja-formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.caja-logo .formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  position: absolute;
+  width: 25%;
+  height: 60%;
+  opacity: 30%;
+  background-color: rgba(255, 228, 196, 0.637);
+  border: 5px solid rgba(0, 0, 0, 0.701);
+  border-radius: 1rem;
+}
+.caja-logo .caja-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 100px;
+}
+.caja-logo .caja-input .h3-usuario {
+  font-size: xx-large;
+  font-weight: 800;
+  font-family: "Courier New", Courier, monospace;
+  font-style: italic;
+  text-align: center;
+}
+.caja-logo .input {
+  background-color: #fff;
+  width: 100%;
+  height: 30px;
+  font-size: large;
+  font-weight: 600;
+  font-style: italic;
+  padding: 4px;
+  margin: 10px;
+}
+.caja-logo .button {
+  width: 70px;
+  height: 5cap;
+  border-radius: 0.1rem;
+  font-family: "Courier New", Courier, monospace;
+}/*# sourceMappingURL=estilos.css.map */

@@ -52,10 +52,10 @@
   align-items: center;
   width: 1%;
   height: 1%;
-  transform: scale3d(4);
-  transition: 5s;
+  transform: scaleZ(2s);
+  transition: 3s;
   animation-duration: 3s;
-  background: radial-gradient(#fff, rgba(0, 128, 0, 0.634), rgba(255, 166, 0, 0.576));
+  background: radial-gradient(#fff, rgb(0, 128, 0), rgba(255, 166, 0, 0.576));
 }
 
 .caja-logo {
@@ -118,4 +118,5 @@
   height: 5cap;
   border-radius: 0.1rem;
   font-family: "Courier New", Courier, monospace;
+  cursor: pointer;
 }/*# sourceMappingURL=estilos.css.map */
